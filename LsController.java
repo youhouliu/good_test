@@ -24,6 +24,8 @@ public class PersonController {
 
     @GetMapping("findAll")
     public List<Person> findAll(){
+
+		system.out.println("Ls µÄ´úÂë");
         return personservice.findAll();
     }
 
